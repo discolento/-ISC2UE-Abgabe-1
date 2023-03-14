@@ -40,12 +40,12 @@ Editieren Sie die HTML-Datei `variables.html` und testen Sie innerhalb des `<scr
 
 Führen Sie nun die folgenden sechs Operationen aus und geben Sie das Ergebnis jeweils mit `console.log()` aus:
 
-- [ ] Addieren Sie `number` und `stringNumber`.
-- [ ] Multiplizieren Sie `number` und `stringNumber`.
-- [ ] Addieren Sie `number` und `string`.
-- [ ] Multiplizieren Sie `number` und `string`. 
-- [ ] Addieren Sie `number` und `array`.
-- [ ] Multiplizieren Sie `number` und `array`.
+- [x] Addieren Sie `number` und `stringNumber`.
+- [x] Multiplizieren Sie `number` und `stringNumber`.
+- [x] Addieren Sie `number` und `string`.
+- [x] Multiplizieren Sie `number` und `string`. 
+- [x] Addieren Sie `number` und `array`.
+- [x] Multiplizieren Sie `number` und `array`.
 
 Versuchen Sie anhand der Ergebnisse nachzuvollziehen, wie sich das lose Typkonzept von JavaScript hier auswirkt.
 
@@ -73,18 +73,18 @@ Implementieren Sie die Funktion, sodass Umwandlungen von jeder Einheit in jede E
 
 Testen Sie mit diesen zwölf Fällen und geben Sie diese mit `console.log()` aus (die korrekten Ergebnisse sind zur Kontrolle als Kommentare angefügt):
 
-- [ ] `convertTemperature(35, "celsius", "fahrenheit") // 95`
-- [ ] `convertTemperature(35, "celsius", "kelvin") // 308.15`
-- [ ] `convertTemperature(35, "celsius", "celsius") // 35`
-- [ ] `convertTemperature(35, "kelvin", "fahrenheit") // -396.67`
-- [ ] `convertTemperature(35, "kelvin", "kelvin") // 35`
-- [ ] `convertTemperature(35, "kelvin", "celsius") // -238.14999999999998`
-- [ ] `convertTemperature(35, "fahrenheit", "fahrenheit") // 35`
-- [ ] `convertTemperature(35, "fahrenheit", "kelvin") // 274.81666666666666`
-- [ ] `convertTemperature(35, "fahrenheit", "celsius") // 1.6666666666666667`
-- [ ] `convertTemperature(35, "degrees", "degrees") // Invalid argument: degrees`
-- [ ] `convertTemperature(35, "celsius", "degrees") // Invalid argument: degrees`
-- [ ] `convertTemperature(35, "degrees", "fahrenheit") // Invalid argument: degrees`
+- [x] `convertTemperature(35, "celsius", "fahrenheit") // 95`
+- [x] `convertTemperature(35, "celsius", "kelvin") // 308.15`
+- [x] `convertTemperature(35, "celsius", "celsius") // 35`
+- [x] `convertTemperature(35, "kelvin", "fahrenheit") // -396.67`
+- [x] `convertTemperature(35, "kelvin", "kelvin") // 35`
+- [x] `convertTemperature(35, "kelvin", "celsius") // -238.14999999999998`
+- [x] `convertTemperature(35, "fahrenheit", "fahrenheit") // 35`
+- [x] `convertTemperature(35, "fahrenheit", "kelvin") // 274.81666666666666`
+- [x] `convertTemperature(35, "fahrenheit", "celsius") // 1.6666666666666667`
+- [x] `convertTemperature(35, "degrees", "degrees") // Invalid argument: degrees`
+- [x] `convertTemperature(35, "celsius", "degrees") // Invalid argument: degrees`
+- [x] `convertTemperature(35, "degrees", "fahrenheit") // Invalid argument: degrees`
 
 Die ersten 9 repräsentieren jeweils die verschiedenen Umwandlungspfade, bei den letzten drei Aufrufen ist jeweils mindestens ein ungültiges Argument (`"degrees"`) angegeben. Dies soll eine Fehlermeldung erzeugen.
 
@@ -122,15 +122,15 @@ Für das Entnehmen gelten drei Regeln, die Abbildung stellt dies bildlich dar:
 
 Implementieren Sie nun die obigen Regeln und testen Sie mit den folgenden 9 Fällen. Zeigen Sie das jeweilige Ergebnis mit `console.log()` an (die Kommentare enthalten das korrekte Ergebnis zur Kontrolle):
 
-- [ ] `arrayExtract(exampleArray, 1, 4) // [2, 3, 4, 5]`
-- [ ] `arrayExtract(exampleArray, 1, 10) // [2, 3, 4, 5, 6, 7, 8, 9, 10]`
-- [ ] `arrayExtract(exampleArray, 12, 2) // []`
-- [ ] `arrayExtract(exampleArray, -5, 3) // [6, 7, 8]`
-- [ ] `arrayExtract(exampleArray, -11, 2) // [1]`
-- [ ] `arrayExtract(exampleArray, -13, 2) // []`
-- [ ] `arrayExtract() // []`
-- [ ] `arrayExtract(exampleArray) // []`
-- [ ] `arrayExtract(exampleArray, 0) // []`
+- [x] `arrayExtract(exampleArray, 1, 4) // [2, 3, 4, 5]`
+- [x] `arrayExtract(exampleArray, 1, 10) // [2, 3, 4, 5, 6, 7, 8, 9, 10]`
+- [x] `arrayExtract(exampleArray, 12, 2) // []`
+- [x] `arrayExtract(exampleArray, -5, 3) // [6, 7, 8]`
+- [x] `arrayExtract(exampleArray, -11, 2) // [1]`
+- [x] `arrayExtract(exampleArray, -13, 2) // []`
+- [x] `arrayExtract() // []`
+- [x] `arrayExtract(exampleArray) // []`
+- [x] `arrayExtract(exampleArray, 0) // []`
 
 ## Tipps und Richtlinien
 
